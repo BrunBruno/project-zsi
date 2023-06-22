@@ -5,6 +5,61 @@
 }
 
 .card-text {
+  padding: 2% 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-text-bg-left {
+  background: conic-gradient(from 120deg at 0% 50%, #111a, #0000, #0000);
+  border-bottom-left-radius: 2rem;
+}
+.card-text-bg-right {
+  background: conic-gradient(from 60deg at 80% 100%, #111a, #0000, #0000);
+  border-bottom-right-radius: 2rem;
+}
+
+.card-text:hover > h2 span {
+  margin-left: 0;
+  padding: 0.2rem 1rem;
+  transition: all 0.3s;
+}
+
+.card-text h2 span {
+  margin-left: 1rem;
+  padding: 0 0;
+  font-size: 1.6rem;
+  border: 0.5rem solid #0000;
+  background: conic-gradient(
+        from 90deg at top 0.1rem left 0.1rem,
+        #0000 90deg,
+        #f8f9fa 0
+      )
+      0 0 / 0.5rem 0.5rem border-box no-repeat,
+    conic-gradient(
+        from 180deg at top 0.1rem right 0.1rem,
+        #0000 90deg,
+        #f8f9fa 0
+      )
+      100% 0 / 0.5rem 0.5rem border-box no-repeat,
+    conic-gradient(
+        from 0deg at bottom 0.1rem left 0.1rem,
+        #0000 90deg,
+        #f8f9fa 0
+      )
+      0 100% / 0.5rem 0.5rem border-box no-repeat,
+    conic-gradient(
+        from -90deg at bottom 0.1rem right 0.1rem,
+        #0000 90deg,
+        #f8f9fa 0
+      )
+      100% 100% / 0.5rem 0.5rem border-box no-repeat;
+  transition: all 0.3s;
+}
+
+.card-text span {
+  font-size: 0.8rem;
 }
 
 .card-image {
@@ -38,7 +93,7 @@
   position: absolute;
   width: 100%;
   aspect-ratio: 1 / 1;
-  border: solid 2px #000;
+  border: solid 2px #111;
   border-radius: 20%;
   display: flex;
   align-items: center;

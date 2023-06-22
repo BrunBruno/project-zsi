@@ -14,15 +14,7 @@ function Card(props) {
           </span>
         </h2>
         <h4>{props.element.maintext}</h4>
-        <span>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius illo
-          libero deserunt veniam ut omnis cumque a? Mollitia, ratione! Ratione
-          quod maxime animi aliquam? Aperiam mollitia ab fuga veritatis labore?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
-          eligendi nam ducimus voluptates repellendus, possimus quasi
-          exercitationem, modi, deserunt enim porro quo unde optio? Autem nam
-          voluptates quidem sequi corrupti?
-        </span>
+        <span>{props.element.text}</span>
       </div>
     );
   }

@@ -1,0 +1,15 @@
+.card {
+  background-color: red;
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2%;
+}
+
+.card-text {
+  background-color: green;
+}
+
+.card-image {
+  background-color: blue;
+}

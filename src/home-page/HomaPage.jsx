@@ -4,16 +4,20 @@ import classes from "./HomePage.module.css";
 
 function HomePage() {
   const elements = [
-    { name: "Nagios", text: "Text", image: "url" },
-    { name: "Zabbix", text: "Text", image: "url" },
-    { name: "Cacti", text: "Text", image: "url" },
-    { name: "Wireshark", text: "Text", image: "url" },
-    { name: "OpenNMS", text: "Text", image: "url" },
-    { name: "Ansible", text: "Text", image: "url" },
-    { name: "Icinga", text: "Text", image: "url" },
-    { name: "Nmap", text: "Text", image: "url" },
-    { name: "Apache JMeter", text: "Text", image: "url" },
-    { name: "GLPI", text: "Text", image: "url" },
+    { name: "Nagios", text: "Text", image: "./images/NagiosLogo.png" },
+    { name: "Zabbix", text: "Text", image: "./images/ZabbixLogo.png" },
+    { name: "Cacti", text: "Text", image: "./images/CactiLogo.png" },
+    { name: "Wireshark", text: "Text", image: "./images/WiresharkLogo.png" },
+    { name: "OpenNMS", text: "Text", image: "./images/OpenNMSLogo.png" },
+    { name: "Ansible", text: "Text", image: "./images/AnsibleLogo.png" },
+    { name: "Icinga", text: "Text", image: "./images/IcingaLogo.png" },
+    { name: "Nmap", text: "Text", image: "./images/NmapLogo.png" },
+    {
+      name: "Apache JMeter",
+      text: "Text",
+      image: "./images/ApacheJMeterLogo.png",
+    },
+    { name: "GLPI", text: "Text", image: "./images/GLPILogo.png" },
   ];
   return (
     <>

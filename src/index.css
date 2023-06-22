@@ -9,6 +9,7 @@ body {
   color: #fff;
   background-color: #333;
   overflow: scroll;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 body::-webkit-scrollbar {

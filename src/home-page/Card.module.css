@@ -86,9 +86,11 @@
 
 .card-image-container-left {
   transform: rotateX(-10deg) rotateY(10deg);
+  transition: all 0.3s;
 }
 .card-image-container-right {
   transform: rotateX(-10deg) rotateY(-10deg);
+  transition: all 0.3s;
 }
 
 .card-image-container p {
@@ -115,6 +117,7 @@
   transform: rotateX(90deg) translateZ(-100px);
   background-color: #000;
   filter: blur(50px);
+  transition: all 0.3s;
 }
 
 .card-image-container:hover p:nth-child(3) {

@@ -6,6 +6,61 @@
   top: 0;
 }
 
+.hero {
+  height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(34, 34, 34, 0.8) 40%,
+      rgba(34, 34, 34, 0.6) 60%,
+      rgba(34, 34, 34, 0.4) 80%,
+      rgba(34, 34, 34, 0.2) 100%
+    ),
+    url("/images/hero.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.hero-context {
+  color: #fff;
+  display: block;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.hero-context-title {
+  position: absolute;
+  width: 75%;
+  height: 50%;
+  left: 25%;
+  top: 50%;
+  transform: translate(0%, -50%);
+  text-align: center;
+}
+
+.nav-button {
+  position: absolute;
+  width: 5%;
+  aspect-ratio: 1 / 1;
+  right: 2%;
+  bottom: 16%;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: solid 0.2rem #fff;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.nav-button:hover {
+  /* border: solid 0.2rem #fff; */
+  background-color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
 .header h2 {
   padding: 1rem;
 }

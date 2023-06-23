@@ -26,13 +26,17 @@ function Card(props) {
         : classes["card-image-container-right"];
     return (
       <div className={classes["card-image"]}>
-        <div className={`${classes["card-image-container"]} ${containerClass}`}>
-          <p>
-            <img src={props.element.image} alt={props.element.name} />
-          </p>
-          <p></p>
-          <p></p>
-        </div>
+        <a href={props.element.link} target="_blank">
+          <div
+            className={`${classes["card-image-container"]} ${containerClass}`}
+          >
+            <p>
+              <img src={props.element.image} alt={props.element.name} />
+            </p>
+            <p></p>
+            <p></p>
+          </div>
+        </a>
       </div>
     );
   }

@@ -3,15 +3,27 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
   color: #fff;
   background-color: #333;
   overflow: scroll;
+  overflow: overlay;
   font-family: "Trebuchet MS", sans-serif;
 }
 
 body::-webkit-scrollbar {
-  display: none;
+  background-color: #0000;
+  /* width: 0.6rem; */
+  width: 0;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border-radius: 1rem;
 }

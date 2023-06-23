@@ -21,6 +21,8 @@
 }
 
 .card-text h2 span {
+  color: #fff;
+  text-shadow: 2px 1px #000;
   margin-left: 1rem;
   padding: 0 1rem;
   font-size: 1.6rem;
@@ -52,8 +54,14 @@
   transition: all 0.3s;
 }
 
+.card-text h2 span {
+  color: #eee;
+  text-shadow: 1px 1px #000;
+}
+
 .card-text span {
   font-size: 0.8rem;
+  color: #ccc;
 }
 
 .card-image {
